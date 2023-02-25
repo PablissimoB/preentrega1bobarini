@@ -1,0 +1,38 @@
+ul{
+    display: flex;
+  }
+  li{
+    list-style: none;
+    margin-left: 10px;
+  }
+  a{
+    text-decoration: none;
+    color: white;
+  }
+  a:hover{
+    color:greenyellow
+  }
+  .logo{
+    height: 7vh;
+    min-height: 50px;
+  }
+  .navbarContainer{
+    background-color: green;
+    height: 7vh;
+    min-height: 50px;
+  }
+  .flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .cartIcon{
+    color: white;
+    border: solid white 1px;
+    padding: 2px;
+    border-radius: 50%;
+  }
+  .cartIcon:hover{
+    color:greenyellow;
+    cursor: pointer;
+  }
