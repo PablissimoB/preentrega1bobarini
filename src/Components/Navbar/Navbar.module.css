@@ -3,7 +3,7 @@ ul{
   }
   li{
     list-style: none;
-    margin-left: 10px;
+    margin-right: 10px;
   }
   a{
     text-decoration: none;
@@ -21,7 +21,7 @@ ul{
     height: 7vh;
     min-height: 50px;
   }
-  .flex{
+  .flexContainer{
     display: flex;
     align-items: center;
     justify-content: center;

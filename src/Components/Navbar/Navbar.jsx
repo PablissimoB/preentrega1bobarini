@@ -12,14 +12,14 @@ const Navbar = () => {
           <Grid xs={2}>
               <img src={logo} alt="logo" className={style.logo} />
           </Grid>
-          <Grid xs={8} className={style.flex}>
+          <Grid xs={8} className={style.flexContainer}>
             <ul>
               <li><a href="">Inicio</a> </li>
               <li> <a href="">Menu</a> </li>
               <li> <a href="">Contacto</a> </li>
             </ul>
           </Grid>
-          <Grid xs={2} className={style.flex}>
+          <Grid xs={2} className={style.flexContainer}>
             <CartWidget />
           </Grid>
         </Grid>
