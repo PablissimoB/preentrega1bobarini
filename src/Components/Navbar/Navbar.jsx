@@ -14,9 +14,9 @@ const Navbar = () => {
           </Grid>
           <Grid xs={8} className={style.flexContainer}>
             <ul>
-              <li><a href="">Inicio</a> </li>
-              <li> <a href="">Menu</a> </li>
-              <li> <a href="">Contacto</a> </li>
+              <li><a href="">Carne</a> </li>
+              <li> <a href="">Pescado</a> </li>
+              <li> <a href="">Vegetariano</a> </li>
             </ul>
           </Grid>
           <Grid xs={2} className={style.flexContainer}>
